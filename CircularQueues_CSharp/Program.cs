@@ -21,6 +21,7 @@ namespace CircularQueues_CSharp
                 Console.WriteLine("\nQueue overflow");
                 return;
             }
+            //The following statement checks whether the queue is empty. If the queue is empty, then the value of the REAR and FRONT variables is set to 0
         }
         static void Main(string[] args)
         {
