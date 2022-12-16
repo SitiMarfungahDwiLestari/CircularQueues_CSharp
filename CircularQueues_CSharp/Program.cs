@@ -93,6 +93,8 @@ namespace CircularQueues_CSharp
                     Console.Write(queue_array[FRONT_position] + " ");
                     FRONT_position++;
                 }
+                //set the FRONT position to the first element of the array
+                FRONT_position = 0;
             }
         }
         static void Main(string[] args)
