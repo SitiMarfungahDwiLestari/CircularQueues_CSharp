@@ -74,6 +74,18 @@ namespace CircularQueues_CSharp
                 Console.WriteLine("Queue is empty\n");
                 return;
             }
+            Console.WriteLine("\nElements in the queue are..............\n");
+            if(FRONT_position <= REAR_position)
+            {
+                //Traverses the queue till the last element present in an array
+                while(FRONT_position <= REAR_position)
+                {
+                    Console.WriteLine(queue_array[FRONT_position] + " ");
+                    FRONT_position++;
+                }
+                Console.WriteLine();
+            }
+
         }
         static void Main(string[] args)
         {
