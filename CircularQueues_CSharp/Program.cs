@@ -95,6 +95,13 @@ namespace CircularQueues_CSharp
                 }
                 //set the FRONT position to the first element of the array
                 FRONT_position = 0;
+                //Traverse the array till the last element present in the queue
+                while (FRONT_position <= REAR_position)
+                {
+                    Console.Write(queue_array[FRONT_position] + " ");
+                    FRONT_position++;
+                }
+                Console.WriteLine();
             }
         }
         static void Main(string[] args)
