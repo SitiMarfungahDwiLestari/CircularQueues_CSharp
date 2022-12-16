@@ -48,6 +48,16 @@ namespace CircularQueues_CSharp
                 return;
             }
             Console.WriteLine("\nThe element deleted from the queue is: " + queue_array[FRONT] + "\n");
+            //Checks if the queue has one element 
+            if (FRONT == REAR)
+            {
+                FRONT = -1;
+                REAR = -1;
+            }
+            else
+            {
+                //If the element to be deleted is at the last position of the array, then the value of FRONT is set to 0 i.e to the first element of the array 
+            }
         }
         static void Main(string[] args)
         {
